@@ -7,3 +7,7 @@ def main():
 
 if __name__ == "__main__":
   main()
+with open('gibbons-boardgames.tsv', 'r') as f:
+    boardgamelist = f.readline()
+my_list = boardgamelist.split()
+print my_list
